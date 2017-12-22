@@ -1,1 +1,1 @@
-﻿Reddit Frontend
+﻿Reddit
