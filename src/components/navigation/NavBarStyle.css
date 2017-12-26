@@ -1,0 +1,46 @@
+#Menu {
+    background-color: #cee3f8;
+}
+
+.NavBar {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#header-img {
+    text-indent: -9999px;
+    background-image: url(https://www.redditstatic.com/sprite-reddit.bTLvdEETokI.png);
+    background-position: 0px -1323px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 120px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+#tabmenu {
+    list-style-type: none;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0;
+}
+
+
+#tabmenu li {
+    display: inline;
+    font-weight: bold;
+    margin: 0px 3px;
+}
+
+#tabmenu li a {
+    padding: 2px 6px 0 6px;
+    background-color: #eff7ff;
+    text-decoration: none;
+    color: #369;
+}
