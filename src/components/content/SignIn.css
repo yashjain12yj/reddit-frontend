@@ -1,0 +1,121 @@
+.spacer {
+    margin: 7px 0 12px 0;
+}
+
+
+.login-form-side {
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+form {
+    display: block;
+}
+
+.login-form-side input[type=text], .login-form-side input[type=password] {
+    font-family: verdana;
+    font-size: 11px;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #999;
+    width: 129px;
+    margin: 5px 0px 0px 5px;
+    top: 5px;
+    padding: 6px;
+}
+
+.login-form-side #remember-me * {
+    vertical-align: middle;
+}
+
+#rem-login-main {
+    position: static;
+    height: auto;
+    width: auto;
+    border: none;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+form input[type=checkbox], form input[type=radio] {
+    margin: 2px .5em 0 0;
+}
+
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+}
+
+.login-form-side #remember-me {
+    float: left;
+    line-height: 24px;
+    margin-left: 5px;
+}
+
+.login-form-side .recover-password {
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #369;
+}
+
+.login-form-side .submit *, .user-form .submit * {
+    vertical-align: middle;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    padding: 2px 6px 3px;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+.login-form-side .submit {
+    float: right;
+}
+.login-form-side .submit {
+    margin: 4px;
+}
+div {
+    display: block;
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+
+input{
+	-webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0px;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    font: 400 13.3333px Arial;
+    -webkit-writing-mode: horizontal-tb;
+    white-space: nowrap;
+}
