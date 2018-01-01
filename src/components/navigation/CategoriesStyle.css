@@ -1,0 +1,43 @@
+.ca-header {
+    background-color: #f0f0f0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+    font-size: 80%;
+    min-height: 18px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.width-clip {
+    position: relative;
+    left: 0;
+    right: 0;
+    display: inline-block;
+}
+
+.ca-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.flat-list li {
+    display: inline;
+    white-space: nowrap;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    padding: 0;
+    padding-left: 5px;
+    line-height: 18px;
+}
+
+.separator {
+    color: gray;
+    margin: 0px .7ex 0px .7ex;
+    cursor: default;
+}
